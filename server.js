@@ -1,6 +1,6 @@
 const express = require('express');
-const api = require('./routes/index.js');
 const app = express();
+const api = require('./routes/index.js');
 
 const PORT = process.env.PORT || 3001;
 
@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
-app.use('/', routes);
-app.use('/api', routes);
+app.use('/', api);
+app.use('/api', api);
 
 app.listen(PORT, () =>
     console.log(`App listening at http://localhost:${PORT} 🚀`)
