@@ -19,7 +19,19 @@
 
 
 ## Usage:
+Screenshots of website:
 
+![Screenshot](public/assets/img/screenshot1.png)
+
+![Screenshot](public/assets/img/screenshot6.png)
+
+![Screenshot](public/assets/img/screenshot2.png)
+
+![Screenshot](public/assets/img/screenshot3.png)
+
+![Screenshot](public/assets/img/screenshot4.png)
+
+![Screenshot](public/assets/img/screenshot5.png)
 
 ## License:
 MIT
