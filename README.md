@@ -46,6 +46,22 @@ You note will then be saved to the left-hand side of the page
 ![Screenshot](public/assets/img/screenshot4.png)
 
 
+
+On the backend of the app, using Insomnia, the following routes have been created:
+
+GET /notes returns the notes.html file.
+
+GET * returns the index.html file.
+
+GET /api/notes reads the db.json file and returns all saved notes as JSON.
+
+POST /api/notes receives a new note to save on the request body in the db.json file, and return the new note to the client.  You will want to make sure to click on the body tab then select JSON.  After you've selected JSON, you can then put in a note like this:
+
+![Screenshot](public/assets/img/screenshot7.png)
+
+After you POST that you will see the results with a unique id on the right-hand side of Insomnia.
+
+
 ## License:
 MIT
 
