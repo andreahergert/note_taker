@@ -18,6 +18,8 @@ This is a note taker app created in the UW Coding Bootcamp that can be used to w
 ## Installation:
 Use a web browser to access the website: https://calm-escarpment-81657.herokuapp.com/
 
+If you want to use the backend of the application you will need Insomnia
+
 ## Usage:
 Use a web browser to access the website: https://calm-escarpment-81657.herokuapp.com/
 
@@ -42,6 +44,7 @@ In the right-hand side section you can click on Note Title and Note Text then to
 You note will then be saved to the left-hand side of the page
 
 ![Screenshot](public/assets/img/screenshot4.png)
+
 
 ## License:
 MIT
